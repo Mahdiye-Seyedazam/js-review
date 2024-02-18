@@ -1,7 +1,10 @@
-var num1 = +prompt("enter your number: ",0)
-var num2 = +prompt("enter your number: ",0)
-var num3 = +prompt("enter your number: ",0)
+var age = +prompt('enter your age : ', 0)
 
-var average = (num1 + num2 + num3 ) / 3
+if(age >= 18){
 
-alert("average of your numbers is : "+average)
+    alert("your age is ok , you can enter the site!")
+
+}else{
+
+    alert("your age is not ok , you can not enter the site!")
+}
