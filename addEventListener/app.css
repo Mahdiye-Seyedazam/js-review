@@ -1,0 +1,49 @@
+.html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #1cef09f3;
+    /* height: 100vh; */
+} 
+/* 
+.change-color{
+    background-color: #24df138d;
+} */
+
+.redColo{
+    background-color: rgb(197, 99, 99);
+}
+
+.orageColor{
+    background-color: rgb(188, 143, 106);
+}
+.greenColor{
+    background-color: #90d29b;
+}
+
+.blueColor{
+    background-color: aqua;
+}
+
+
+a{
+    text-decoration: none;
+    color: #90d29b;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #24df138d; */
+}
+
+.caption{
+    line-height: 35px;
+    direction: rtl;
+}
